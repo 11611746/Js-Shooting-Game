@@ -1,0 +1,49 @@
+#mainCharacter{
+    background: #d2e603;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#background{
+    background-color: #1d2d50;
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    left: 0px;
+    top: 0px;
+}
+
+#bullet{
+    background: #ffc93c;
+    width: 2px;
+    height: 40px;
+    position: absolute;
+}
+
+.covidVirus{
+    background: #ec0101;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+
+#score{
+    color: #f6f6f6;
+    font-size: 1rem;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    letter-spacing: 5px;
+}
+
+#gameOver{
+    color: #f6f6f6;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 160px;
+    top: 200px;
+    letter-spacing: 5px;
+    visibility: hidden;
+}
